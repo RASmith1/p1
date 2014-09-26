@@ -21,6 +21,7 @@ Students are not being asked to do demos for this project.
 # **Details for Teaching Team**
 No login is required.
 On the web page, if you hover over the links, it will show you what the link is resolving to. 
+The website looks best in Chrome, then Firefox, then IE.
 
 # **Outside Code**
 No outside code was used in this project.  I did use an image of vintage wallpaper/background for
