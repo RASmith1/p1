@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/* CSS Document for CSCI E15 - Project 1*/
+
+/* Color palette for site   */
+
+/*  Dark Choc       #582f2f */
+
+/* Remove all default margins and padding */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-position: 0;
+    background-image: url(../images/backgrounds/background19_big.jpg);
+    background-repeat: round;
+    color: #582f2f;
+    font-family: calibri, verdana, tahoma, arial, helvetica, sans-serif;
+    /* The right-margin setting below is to account for  */
+    /* centering, given the scrollbar on the right side. */
+    /* margin-right: 19px;*/
+    text-align: center;
+    align-content: center;
+}
+#wrapper {
+    width: 560px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+.masthead {
+    margin-bottom: 8px;
+    background-color: white;
+    border-spacing: 10px;
+    border-style: outset;
+    border-color: #582f2f;
+    border-width: 18px;
+    border-radius: 2px;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/backgrounds/background19_big.jpg);
+}
+
+p#About_me_1st_line {
+    font-size: 2.1em;
+    padding: 7px 0px;
+}
+p#About_me_2nd_line {
+    font-size: 1.50em;
+    padding: 7px 0px;
+}
+
+/******************************************************/
+
+/* I added markup below to keep page from moving right or  */
+/* left when scroll bar was removed or added, respectively */
+
+html {
+    overflow-y: scroll;
+}
+
+#My_pics {
+    align-self: center;
+}
+
+#linkscontainer {
+    text-align: left;
+    list-style: none;
+    align-self: center;
+}
+
+#paragraphscontainer {
+    text-align: left;
+    list-style: none;
+    align-self: center;
+}
+
+#paragraphs {
+    text-align: left;
+    list-style: none;
+/*    margin-left: 25%;*/
+}
+
+.container {
+    width: 50%;
+}
+
+.container2 {
+    display: table;
+    width: 50%;
+}
+
+.row {
+    display: table-row;
+}
+
+.headercell {
+    display: table-cell;
+    width: 50%;
+    height: 30px;
+    text-align: left;
+    font-weight: bold;
+/*    text-decoration: underline;*/
+}
+
+.blankcell {
+    display: table-cell;
+    width: 50%;
+    height: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.viewcell {
+    display: table-cell;
+    width: 280px;
+    height: 40px;
+    text-align: left;
+}
+
+.githubcell {
+    display: table-cell;
+    width: 280px;
+    height: 40px;
+    text-align: left;
+}
